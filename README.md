@@ -22,4 +22,4 @@ The model architecture consists of an LSTM layer with a variable number of units
 
 The hyperparameters are optimized using `Bayesian optimization`, a probabilistic model-based optimization method that seeks to find the `global maximum` of the objective function (in this case, validation accuracy) by building a probabilistic model of the objective function and using it to select the next set of hyperparameters to evaluate.
 
-The code then trains the final model using the best set of hyperparameters and evaluates its performance on a test set. The best epoch is determined based on the validation accuracy, and the model is retrained using the optimal number of epochs. The final model is then evaluated and tested in realtime.
+The code then trains the final model using the best set of hyperparameters and evaluates its performance on a test set. The best epoch is determined based on the validation accuracy, and the model is retrained using the optimal number of epochs. The final model is then evaluated and tested in realtime. 
